@@ -6,7 +6,6 @@ const Countries = () => {
   const [data, setData] = useState([]);
   const [rangeValue, setRangeValue] = useState(40);
   const [selectedRadio, setSelectedRadio] = useState("");
-  const [sortedData, setSortedData] = useState([])
   const radios = ["Africa", "America", "Asia", "Europe", "Oceania"];
 
   useEffect(() => {
@@ -15,8 +14,8 @@ const Countries = () => {
         "https://restcountries.com/v3.1/all"
       )
       .then((res) => {  
-        setData(res.data.slice(0, rangeValue));
-      //  console.log(res.data)
+        setData(res.data);
+       //console.log(res.data)
       });
       
   }, [rangeValue]);
@@ -57,8 +56,9 @@ const Countries = () => {
         {data
           .filter((country) => country.region.includes(selectedRadio))
           .sort((a, b) => b.population - a.population)
+          .filter((country, index) => index < rangeValue)
           .map((country, index) => (
-            <Card country={country} key={index} />
+            <Card country={country} key={country.name.name} />
           ))}
       </ul>
     </div>

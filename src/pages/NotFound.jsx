@@ -4,7 +4,12 @@ const NotFound = () => {
     return (
         <div>
             <h1> Erreure 404</h1>
-        </div>
+            <br />
+            <p> 
+             Vous n'avez pas le droit d'acces a cette ressource
+            </p>
+
+        </div >
     )
 }
 
