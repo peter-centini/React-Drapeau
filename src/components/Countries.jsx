@@ -18,7 +18,7 @@ const Countries = () => {
        //console.log(res.data)
       });
       
-  }, [rangeValue]);
+  }, []);
 
   return (
     <div className="countries">
