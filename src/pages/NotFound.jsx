@@ -7,6 +7,7 @@ const NotFound = () => {
             <br />
             <p> 
              Vous n'avez pas le droit d'acces a cette ressource
+             bey Peter Centini
             </p>
 
         </div >
