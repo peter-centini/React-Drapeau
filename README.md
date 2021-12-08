@@ -29,6 +29,6 @@ Ammuser vous bien avec ce code
 Screen du projet
 ```
 
-<p align="https://github.com/peter-centini/React-Drapeau/blob/master/screen-drapeau.png" width="350" title="project img">
+<p align="center">
+<img src="https://github.com/peter-centini/React-Drapeau/blob/master/screen-drapeau.png" width="350" title="project img">
 </p>
-
