@@ -25,9 +25,6 @@ npm run server
 
 
 Ammuser vous bien avec ce code 
-```bash
-Screen du projet
-```
 
 <p align="center">
 <img src="https://github.com/peter-centini/React-Drapeau/blob/master/screen-drapeau.png" width="350" title="project img">
