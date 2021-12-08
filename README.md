@@ -19,8 +19,10 @@ npm start  (vas lancer le sreveur en local sur le port 3000)
 pour la partie News il faut lancer le serveur du Json
 
 ```bash
-npm run server (vas lancer le serveur virtuelle pour enregistré les données en local dans le json )
+npm run server 
 ```
+(vas lancer le serveur virtuelle pour enregistré les données en local dans le json )
+
 
 Ammuser vous bien avec ce code 
 ```bash
