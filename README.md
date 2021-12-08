@@ -21,3 +21,11 @@ pour la partie News il faut lancer le serveur du Json
 ```bash
 npm run server (vas lancer le serveur virtuelle pour enregistré les données en local dans le json )
 ```
+
+Ammuser vous bien avec ce code 
+
+
+<p align="center">
+  <img src="https://github.com/peter-centini/Crypto-Monaie-NextJS/blob/main/screen.png" width="350" title="project img">
+</p>
+
